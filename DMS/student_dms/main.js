@@ -136,7 +136,7 @@ $(document).ready(function () {
           $(".personalContent").fadeOut();
           $(".workExperienceContent").fadeOut();
           $(".educationContent").fadeIn();
-          $(".referenceContent").fadeOut();
+          $(".referenceContent").fadeOut(); 
           $(".hobbiesContent").fadeOut();
           $(".certificationsContent").fadeOut();
           $(".skillContent").fadeOut();
