@@ -2,7 +2,7 @@
 if (isset($_POST['Email'])) {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "tech@talent-ciccc.ca";
+    $email_to = "event@ciccc.ca";
     $email_subject = "New form submissions from Coop Portal";
 
     function problem($error)
@@ -16,7 +16,7 @@ if (isset($_POST['Email'])) {
 
     // validation expected data exists
     if (
-        !isset($_POST['Name']) ||
+        !isset($_POST['Name']) || 
         !isset($_POST['Email']) ||
         !isset($_POST['Message'])
     ) {

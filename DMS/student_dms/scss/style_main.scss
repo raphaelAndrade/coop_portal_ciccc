@@ -3,6 +3,40 @@
   src: url(fonts/SourceSansPro-Regular.ttf);
 }
 
+
+
+
+.userList {
+  background: green;
+}
+
+.clientList {
+  background: red;
+}
+
+.addressList {
+  background: yellow;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.listEvent {
+  margin: 30px 0 0 0;
+  list-style: none;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #e7e7e7;
+  border-radius: 15px !important;
+  li:nth-child(2) {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
 body {
   &.dark {
     background-color: #0c0f16 !important;
@@ -1812,14 +1846,22 @@ body {
   .listButtonSection li a {
     color: white;
     text-decoration: none;
-    display: block
+    display: block;
   }
   
-  .dayOfInterview {
+  .dayOfInterview, .afterInterviewContainer {
     display: none
   }
+
+  .containerLinks {
+    position: relative;
+  }
   
-  
+  .positionBox {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
 }
 
 

@@ -192,10 +192,12 @@ $(document).ready(function () {
       case "beforeInterview":
         $(".bgBefore").fadeIn();
         $(".dayOfInterview").fadeOut();
+        $(".afterInterviewContainer").fadeOut();
       break;
       case "dayInterview":
         $(".bgBefore").fadeOut();
         $(".dayOfInterview").fadeIn();
+        $(".afterInterviewContainer").fadeOut();
       break;
       case "afterInterview":
         $(".bgBefore").fadeOut();

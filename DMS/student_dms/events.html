@@ -20,7 +20,7 @@
      <!-- Nav -->
      <div class="row">
       <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+        <div class="container"> 
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
               <span class="icon-bar"></span>
@@ -95,28 +95,107 @@
     </div>
   </section>
 
-  <div class="container">
-    <div class="row ">
-      <div class="col-md-12 paddingNone">
-        <div class=>
-
+  <section>
+    <div class="container">
+      <div class="row learnAbout ">
+        <div class="col-md-5">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-5">
+                <div class="image1 image marginImage">
+                  <img src="Images/event2.jpeg" class="img-responsive" alt="" />
+                </div>
+              </div>
+              <div class="col-md-7">
+                <div class="image image2">
+                  <img src="Images/event1.png" class="img-responsive" alt="" />
+                </div>
+                <div class="image1 image marginLeft20px">
+                  <img src="Images/event3.jpeg"class="img-responsive" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-offset-1">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12 paddingNone">
+                <h1>The importance networking</h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 paddingNone">
+                <p>Networking is the action or process of interacting with others to exchange information and develop professional or social contacts. </p>
+                <p>The hidden job market is a term used to describe jobs that aren't advertised or posted online.</p>
+                <p>Typically these types of jobs are found by using your network!</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 paddingNone">
+                <ul class="listEvent">
+                  <li>80% of available jobs are not posted online</li>
+                  <li>Referrals account for ⅓ of all hires</li>
+                  <li>85% of jobs are filled through networking</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="maps">
-          <iframe
-            src="https://calendar.google.com/calendar/embed?src=o96gl54m4pdskfda5dm8pmvcjs%40group.calendar.google.com&ctz=America%2FVancouver"
-            style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+  </section>
+  <section class="sectionTimeline">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="maps">
+            <iframe
+              src="https://calendar.google.com/calendar/embed?src=o96gl54m4pdskfda5dm8pmvcjs%40group.calendar.google.com&ctz=America%2FVancouver"
+              style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-
+  </section>
+  <section class="Coop_advisor student_advisor">
+    <div class="container"> 
+      <div class="row">
+        <div class="col-md-4">
+          <div class="picture">
+            <span><img src="Images/fernando.jpeg" class="jess"></span><br>
+            <h5 class="name">Fernando Aguiar </h5>
+            <p class="description">Event Manager</p>
+          </div>
+        </div>
+        <div class="col-md-8 ">
+          <h1 class="contactTitle">Event Manager</h1>
+          <p class="contactTitle">Send a message below for more information regarding events.</p>
+          <form method="post" action="contact-form-process1.php" class="formContact">
+            <div class="col-sm-12 paddingNone">
+              <div class="row">
+                <div class="col-sm-6 form-group paddingNone">
+                  <input class="form-control" id="name" name="Name" placeholder="Name" type="text" required>
+                </div>
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" id="email" name="Email" placeholder="Email" type="email" required>
+                </div>
+                <div class="col-sm-12 paddingNone">
+                  <textarea class="form-control " id="comments" name="Message" placeholder="Message"
+                    rows="5"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 form-group">
+                  <button class="btn btn-default pull-right contactButton" type="submit">Submit</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="footer">
     <div class="container">
       <div class="row">
@@ -136,3 +215,5 @@
 </body>
 
 </html>
+
+

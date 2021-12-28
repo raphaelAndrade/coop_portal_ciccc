@@ -15,10 +15,8 @@
   <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/style_main.css">
-
-
-
 </head>
+
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
   <div class="container">
@@ -61,7 +59,7 @@
               <li><a href="faq.html">FAQ</a></li>
               <li>
                 <a href="resources.html" class="resources">Resources</a>
-                <ul class="subMenu resourceSubMenu">
+                <ul class="subMenu resourceSubMenu list userList" id="userList">
                   <li><a href="resume.html" >Resume</a></li>
                   <li><a href="coverLetter.html">Cover Letter</a></li>
                   <li><a href="interview.html">Interview</a></li>
@@ -175,7 +173,6 @@
             <ul class="menuResume">
               <li class="active" data-content="header"><a href="#">Attention-grabbing Headline</a></li>
               <li data-content="personal"><a href="#">A Summary that Sells</a></li>
-              <li data-content="workExperience"><a href="#">Relevant Work Experience </a></li>
               <li data-content="education"><a href="#">Experience and Education </a></li>
               <li data-content="certifications"><a href="#">Skills</a></li>
               <li data-content="skills"><a href="#">Recommendations</a></li>
@@ -220,7 +217,24 @@
                 </div>
               </div>
             </div>
-            <div class="workExperienceContent">
+            <div class="certificationsContent">
+              <div class="bgTextInformation">
+                <h3>Skills</h3>
+                <p>Don’t skip this section! You can add up to 50 skills. It will help recruiters find you based on the
+                  skills on your profile and you will appear in more searches each week! LinkedIn will also recommend
+                  jobs to you, based on the skills on your profile.</p>
+               
+                <div class="examples">
+                  <ul class="listList">
+                    <li>Look at the skills on someone who has a job you would like to do</li>
+                    <li>Look at the skills and requirements on a job description that interests you</li>
+                    <li>You should also ask friends, coworkers and classmates to endorse your skills (confirm that they
+                      are true). This adds A LOT of credibility to your profile.</li>
+                  </ul>
+                </div>   
+              </div>
+            </div>
+            <div class="educationContent">
               <div class="bgTextInformation">
                 <h3>Experience and Education</h3>
                 <p>Your Education and Experience sections should reflect what is on your resume.</p>
@@ -237,27 +251,10 @@
                   <li>
                     List your top 3-5 responsibilities that showcase your best achievements, not everything.
                   </li>
-                </ul>
+                </ul>  
               </div> 
             </div>
-            <div class="certificationsContent">
-              <div class="bgTextInformation">
-                <h3>Skills</h3>
-                <p>Don’t skip this section! You can add up to 50 skills. It will help recruiters find you based on the
-                  skills on your profile and you will appear in more searches each week! LinkedIn will also recommend
-                  jobs to you, based on the skills on your profile.</p>
-               
-                <div class="examples">
-                  <ul class="listList">
-                    <li>Look at the skills on someone who has a job you would like to do</li>
-                    <li>Look at the skills and requirements on a job description that interests you</li>
-                    <li>You should also ask friends, coworkers and classmates to endorse your skills (confirm that they
-                      are true). This adds A LOT of credibility to your profile.</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="educationContent">
+            <div class="skillContent">
               <div class="bgTextInformation">
                 <h3>Recommendations</h3>
                 <p>Have you ever written a review on Google for a product or a service? Well imagine the same thing, but
@@ -310,7 +307,7 @@
       </div>
     </div>
   </section> 
-
+ 
   <section class="footer">
     <div class="container">
       <div class="row">
@@ -330,3 +327,7 @@
 </body>
 
 </html>
+
+
+
+
